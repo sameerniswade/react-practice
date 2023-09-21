@@ -16,13 +16,13 @@ function App() {
   };
   return (
     <div className={styles.container}>
-      <h1>count : {counter}</h1>
+      <h1>Count : {counter}</h1>
       <div className={styles.buttons}>
         <button onClick={increaseCount}>
-          click here to Increase count by 1
+          Increase count by 1
         </button>
         <button onClick={decreaseCount}>
-          click here to decrease count by 1
+          Decrease count by 1
         </button>
       </div>
     </div>
